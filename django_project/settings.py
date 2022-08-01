@@ -30,6 +30,9 @@ INSTALLED_APPS = [
     # Local
     "accounts",
     "pages",
+    "stores",
+
+
 ]
 
 # MIDDLEWARE
