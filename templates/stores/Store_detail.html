@@ -6,5 +6,10 @@
 <h2> Description: {{ store.description }}</h2>
 <h2> Purchaser: {{ store.owner }}</h2>
 
+<a href = "{% url 'Store_update' store.pk %}"> Update</a>
+
+
+<a href = "{% url 'Store_delete' store.pk %}">Delete</a>
+
 
 {% endblock content %}
